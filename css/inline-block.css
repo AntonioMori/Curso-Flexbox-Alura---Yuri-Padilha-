@@ -1,0 +1,35 @@
+/* Caixa onde fica todo o conteúdo do menu superior
+botões, títilo e logo */
+.cabecalhoPrincipal{
+
+}
+
+/* só o título  "alurinha" -- "antonio" */
+.cabecalhoPrincipal-titulo{
+/* faz com que o título antonio fique como 
+se fosse uma caixa e permite outro objetos
+ficarem ao seu lado */
+display: inline-block;
+
+vertical-align: middle;
+}
+
+/* o conteiner onde estão todos os botões  */
+.cabecalhoPrincipal-nav{
+/*faz com que o conteiner fique ao lado do alurinha
+e não embaixo*/
+display: inline-block;
+
+vertical-align: middle;
+
+}
+
+/* cada um dos botões individualmente do menu em cima */
+.cabecalhoPrincipal-nav-link{
+/* faz com que um fique ao lado do outro e não
+um em cima do outro , ao lado do alurinha */
+
+display: inline-block;
+background-color: rgb(255, 255, 255);
+
+}
